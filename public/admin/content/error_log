@@ -1,0 +1,97 @@
+[03-Oct-2017 03:28:10 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 1
+[03-Oct-2017 03:28:10 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 1
+[03-Oct-2017 03:30:05 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 1
+[03-Oct-2017 03:30:05 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 1
+[03-Oct-2017 03:30:07 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 1
+[03-Oct-2017 03:30:07 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 1
+[03-Oct-2017 03:30:15 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 1
+[03-Oct-2017 03:30:15 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 1
+[03-Oct-2017 03:30:20 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 1
+[03-Oct-2017 03:30:20 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 1
+[03-Oct-2017 12:28:25 UTC] PHP Warning:  require_once(../../private/initialize.php): failed to open stream: No such file or directory in /u01/home/s302218/public_html/cms/public/admin/content/new_content.php on line 1
+[03-Oct-2017 12:28:25 UTC] PHP Fatal error:  require_once(): Failed opening required '../../private/initialize.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /u01/home/s302218/public_html/cms/public/admin/content/new_content.php on line 1
+[04-Oct-2017 10:08:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function validate_content() in /u01/home/s302218/public_html/cms/private/query_functions.php:170
+Stack trace:
+#0 /u01/home/s302218/public_html/cms/public/admin/content/new_content.php(23): create_new_content(Array)
+#1 {main}
+  thrown in /u01/home/s302218/public_html/cms/private/query_functions.php on line 170
+[04-Oct-2017 10:09:27 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /u01/home/s302218/public_html/cms/private/query_functions.php:178
+Stack trace:
+#0 /u01/home/s302218/public_html/cms/public/admin/content/new_content.php(23): create_new_content(Array)
+#1 {main}
+  thrown in /u01/home/s302218/public_html/cms/private/query_functions.php on line 178
+[04-Oct-2017 10:35:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_content_by_id() in /u01/home/s302218/public_html/cms/public/admin/content/view_content.php:8
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/content/view_content.php on line 8
+[04-Oct-2017 20:38:36 Australia/Darwin] PHP Warning:  date() expects parameter 2 to be integer, string given in /u01/home/s302218/public_html/cms/public/admin/content/view_content.php on line 24
+[04-Oct-2017 20:39:01 Australia/Darwin] PHP Warning:  date() expects parameter 2 to be integer, string given in /u01/home/s302218/public_html/cms/public/admin/content/view_content.php on line 24
+[04-Oct-2017 20:39:05 Australia/Darwin] PHP Warning:  date() expects parameter 2 to be integer, string given in /u01/home/s302218/public_html/cms/public/admin/content/view_content.php on line 24
+[05-Oct-2017 00:45:34 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /u01/home/s302218/public_html/cms/public/admin/content/edit_content.php on line 76
+[05-Oct-2017 02:42:24 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /u01/home/s302218/public_html/cms/private/query_functions.php on line 233
+[05-Oct-2017 02:42:45 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 's302218_liviu'@'localhost' (using password: YES) in /u01/home/s302218/public_html/cms/private/database.php on line 6
+[05-Oct-2017 02:43:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 's302218_liviu'@'localhost' (using password: YES) in /u01/home/s302218/public_html/cms/private/database.php on line 6
+[05-Oct-2017 02:43:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 's302218_liviu'@'localhost' (using password: YES) in /u01/home/s302218/public_html/cms/private/database.php on line 6
+[05-Oct-2017 02:43:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 's302218_liviu'@'localhost' (using password: YES) in /u01/home/s302218/public_html/cms/private/database.php on line 6
+[05-Oct-2017 02:43:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 's302218_liviu'@'localhost' (using password: YES) in /u01/home/s302218/public_html/cms/private/database.php on line 6
+[05-Oct-2017 02:43:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 's302218_liviu'@'localhost' (using password: YES) in /u01/home/s302218/public_html/cms/private/database.php on line 6
+[05-Oct-2017 02:48:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 's302218_liviu'@'localhost' (using password: YES) in /u01/home/s302218/public_html/cms/private/database.php on line 6
+[05-Oct-2017 12:21:37 Australia/Darwin] PHP Warning:  date() expects parameter 2 to be integer, string given in /u01/home/s302218/public_html/cms/public/admin/content/view_content.php on line 24
+[05-Oct-2017 12:22:21 Australia/Darwin] PHP Warning:  date() expects parameter 2 to be integer, string given in /u01/home/s302218/public_html/cms/public/admin/content/view_content.php on line 24
+[05-Oct-2017 12:22:36 Australia/Darwin] PHP Warning:  date() expects parameter 2 to be integer, string given in /u01/home/s302218/public_html/cms/public/admin/content/view_content.php on line 24
+[05-Oct-2017 12:25:21 Australia/Darwin] PHP Warning:  date() expects parameter 2 to be integer, string given in /u01/home/s302218/public_html/cms/public/admin/content/view_content.php on line 24
+[05-Oct-2017 12:25:22 Australia/Darwin] PHP Warning:  date() expects parameter 2 to be integer, string given in /u01/home/s302218/public_html/cms/public/admin/content/view_content.php on line 24
+[06-Oct-2017 04:05:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function users_update_time() in /u01/home/s302218/public_html/cms/public/admin/content/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 13
+[06-Oct-2017 04:20:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function users_update_time() in /u01/home/s302218/public_html/cms/public/admin/content/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 13
+[06-Oct-2017 04:29:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function users_update_time() in /u01/home/s302218/public_html/cms/public/admin/content/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 13
+[06-Oct-2017 04:33:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function users_update_time() in /u01/home/s302218/public_html/cms/public/admin/content/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 13
+[06-Oct-2017 04:33:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function users_update_time() in /u01/home/s302218/public_html/cms/public/admin/content/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 13
+[06-Oct-2017 04:33:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function users_update_time() in /u01/home/s302218/public_html/cms/public/admin/content/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 13
+[06-Oct-2017 04:34:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function users_update_time() in /u01/home/s302218/public_html/cms/public/admin/content/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 13
+[06-Oct-2017 04:34:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function users_update_time() in /u01/home/s302218/public_html/cms/public/admin/content/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 13
+[06-Oct-2017 04:34:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function users_update_time() in /u01/home/s302218/public_html/cms/public/admin/content/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 13
+[08-Oct-2017 10:06:17 UTC] PHP Warning:  Missing argument 1 for link_is_not_unique(), called in /u01/home/s302218/public_html/cms/private/query_functions.php on line 265 and defined in /u01/home/s302218/public_html/cms/private/query_functions.php on line 211
+[10-Oct-2017 01:30:15 UTC] PHP Warning:  Missing argument 2 for edit_page(), called in /u01/home/s302218/public_html/cms/public/admin/content/edit_content.php on line 36 and defined in /u01/home/s302218/public_html/cms/private/query_functions.php on line 331
+[12-Oct-2017 04:18:30 UTC] PHP Parse error:  syntax error, unexpected 'Expired' (T_STRING), expecting ',' or ';' in /u01/home/s302218/public_html/cms/private/functions.php on line 90
+[12-Oct-2017 04:18:31 UTC] PHP Parse error:  syntax error, unexpected 'Expired' (T_STRING), expecting ',' or ';' in /u01/home/s302218/public_html/cms/private/functions.php on line 90
+[12-Oct-2017 04:37:43 UTC] PHP Parse error:  syntax error, unexpected '%' in /u01/home/s302218/public_html/cms/private/functions.php on line 90
+[12-Oct-2017 04:38:02 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /u01/home/s302218/public_html/cms/private/functions.php on line 90
+[12-Oct-2017 04:38:02 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /u01/home/s302218/public_html/cms/private/functions.php on line 90
+[13-Oct-2017 07:53:52 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 14696448 bytes) in /u01/home/s302218/public_html/cms/public/admin/content/index.php on line 28
+[17-Oct-2017 09:33:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_page_by_id() in /u01/home/s302218/public_html/cms/public/admin/content/edit_content.php:32
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/content/edit_content.php on line 32
+[17-Oct-2017 09:34:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_unique_link() in /u01/home/s302218/public_html/cms/public/admin/content/edit_content.php:32
+Stack trace:
+#0 {main}
+  thrown in /u01/home/s302218/public_html/cms/public/admin/content/edit_content.php on line 32
+[17-Oct-2017 09:35:27 UTC] PHP Fatal error:  Cannot redeclare find_content_by_id() (previously declared in /u01/home/s302218/public_html/cms/private/query_functions.php:234) in /u01/home/s302218/public_html/cms/private/query_functions.php on line 382
+[22-Nov-2017 13:08:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /u01/home/s302218/public_html/cms/private/functions.php on line 197
